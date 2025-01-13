@@ -162,26 +162,11 @@ backend/
 │   │   │               └── service/
 │   │   └── resources/
 │   │       └── application.properties
+|   |       └── application-dev.properties
+|   |       └── application-prod.properties
 └── pom.xml
 ```
 
-### Frontend:
-```text
-frontend/
-├── src/
-│   ├── components/
-│   ├── services/
-│   └── assets/
-└── package.json
-```
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## Contact
 
