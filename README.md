@@ -93,13 +93,21 @@ The frontend is developed using **React** (or **Angular**), providing a user-fri
    ```bash
    ./mvnw install
    ```
-4. Set up the database in MySQL and configure the connection in the `src/main/resources/application.properties` file:
+4. Set up the database in MySQL and configure the connection in the `src/main/resources/application-dev.properties` file:
    - Configure the **Database URL**, **Username**, and **Password**.
    - Example:
      ```properties
-     spring.datasource.url=jdbc:mysql://localhost:3306/visitlydb
-     spring.datasource.username=root
-     spring.datasource.password=password
+     
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/Demo_dev
+spring.datasource.username=
+spring.datasource.password=
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+
      ```
 
 5. Start the Spring Boot backend application:
