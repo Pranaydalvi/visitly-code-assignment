@@ -1,6 +1,6 @@
 # Visitly Code Assignment
 
-This repository contains a full-stack web application developed for the **Visitly Code Assignment**. The backend is implemented using **Spring Boot** and the frontend is built using **React** (or **Angular**). The application provides basic user management functionalities, where users can be added and listed from a **MySQL** database.
+This repository contains a full-stack web application developed for the **Visitly Code Assignment**. The backend is implemented using **Spring Boot** and the frontend is built using **Angular**. The application provides basic user management functionalities, where users can be added and listed from a **MySQL** database.
 
 ---
 
